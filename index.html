@@ -119,31 +119,28 @@
     <textarea rows="4" name="innovationDescription"></textarea>
 
     <label class="tooltip" title="Explain the specific problem this innovation is designed to solve.">
-      What Problem Does this Innovation Solve? (200–300 words)
+      What Are the Primary Benefits? (200–300 words)
     </label>
     <textarea rows="4" name="innovationProblem"></textarea>
-
-    <label>Alignment to Westport Priorities (Select one or more)</label>
-    <div class="checkbox-group">
-      <label><input type="checkbox" name="priority" value="Supply chain optimisation"> Supply chain optimisation</label>
-      <label><input type="checkbox" name="priority" value="Productivity and sustainability"> Productivity and sustainability</label>
-      <label><input type="checkbox" name="priority" value="Commercial and policy frameworks"> Commercial and policy frameworks</label>
-      <label>
-        <input type="checkbox" id="priorityOther" onclick="toggleOtherPriority()"> Other
-      </label>
-      <input type="text" id="otherPriorityText" class="hidden other-priority-input" placeholder="Please specify other priority">
-    </div>
 
     <label class="tooltip" title="Technology Readiness Level (TRL) is a scale used to assess how developed and ready a technology is for deployment—from idea to market.">
       Technology Readiness Level (TRL)
     </label>
     <select name="trl">
       <option value="">Select TRL</option>
-      <option>Not sure</option>
       <option>TRL 1–3 (early concept)</option>
       <option>TRL 4–6 (tested/prototyped)</option>
       <option>TRL 7–9 (proven/in-market)</option>
+      <option>Unknwon</option>
+      
     </select>
+
+          <label>Additional Information</label>
+      <textarea rows="4" placeholder= "Add any other relevant information about the innovation."></textarea>
+
+      <label>Is there Any Available Supporting Documentation on the Innovation?</label>
+      <input type="file">
+    
   </div>
 
   <label>Would you like to subscribe to receive project updates?</label>
